@@ -36,3 +36,7 @@ class DynamicArray(object):
 
     def make_array(self, new_cap):
         return (new_cap * ctypes.py_object)()
+
+
+def doSomethingCool():
+    print("Doing something cool")
